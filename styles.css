@@ -1,0 +1,112 @@
+body{
+    margin:0px;
+}
+header img{
+    height: 100px;
+}
+header{
+    text-align: center;
+    width:100%;
+    background-color:#f1dad0;
+}
+nav{
+    margin-top: 10px;
+    background-color:#f1dad0;
+}
+nav a{
+    text-decoration: none;
+    color:#e88789;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+nav a:hover{
+    color:#7c384c;
+    transition:0.6s
+}
+section.home{
+    padding-top: 0;
+    height:800px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-image:url("amazake.png");
+    font-size: 20px;
+}
+.kotakBiotek{
+    width: 40%;
+    margin-left: 50px;
+    padding-top:100px;
+    color:#44212b
+}
+h1.judulHome{
+    font-size: 50px;
+}
+.deskripsiHome{
+    font-size: 20px;
+}
+section.project{
+    height: 800px;
+    text-align: center;
+}
+.deskProject{
+    text-align:center;
+    width:60%;
+    margin:120px;
+    padding: 50px 10%;
+    border-radius:50px;
+    background:beige;
+    padding-bottom: 50px;
+    color:#444121;
+    & img{
+        height:200px;
+    }
+}
+.deskHowto{
+    text-align: center;    
+    padding: 85x 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:#f1dad0;
+    margin:40px;
+    border-radius:50px;
+    color:#7c384c;
+    h2{
+        color:#7c384c;
+        text-align: center;
+    }
+}
+.cardProfile{
+    background-color: rgb(238, 162, 159);
+    padding:15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.imgProfile img{
+    width:100%;
+}
+.medsos{
+    left:0px;
+    bottom: 0px;
+    width:100%;
+    text-align:center;
+    height:40px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    p{
+        font-size:20px
+    }
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+    color:#44212b;
+}
+.dokumentasi{
+    margin:auto;
+    width: 500px;
+    text-align: center;
+}
