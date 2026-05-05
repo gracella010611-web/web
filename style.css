@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.animasi{
+    background-image: url(background.jpg);
+    width: 100%;
+    height: 600px;
+}
+.animasi div{
+        position:absolute;
+    width: 50px;
+    height: 50px;
+}
+.animasi div:nth-child(1){
+    left:5%;
+    animation: jatuh 5s infinite;
+}
+.animasi div:nth-child(2){
+    left:50%;
+    animation: jatuh 5s infinite;
+}
+.animasi div:nth-child(3){
+    left:60%;
+    animation: jatuh 9s infinite;
+}
+.animasi div:nth-child(4){
+    left:70%;
+    animation: jatuh 5s infinite;
+}
+.animasi div:nth-child(5){
+    left:80%;
+    animation: jatuh 7s infinite;
+}
+.animasi div:nth-child(6){
+    left:40%;
+    animation: jatuh 3s infinite;
+}
+.animasi div:nth-child(7){
+    left:30%;
+    animation: jatuh 9s infinite;
+}
+.animasi div:nth-child(8){
+    left:20%;
+    animation: jatuh 3s infinite;
+}
+.animasi div:nth-child(9){
+    left:100%;
+    animation: jatuh 8s infinite;
+}
+.animasi div:nth-child(10){
+    left:90%;
+    animation: jatuh 5s infinite;
+}
+@keyframes jatuh{
+    0%{
+        transform:translateY(0) scale(200)%;
+    }
+    100%{
+        transform:translateY(600px) rotate(360deg) scale(200%);
+        opacity:0;
+    }
+}
